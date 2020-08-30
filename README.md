@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/Starraider/commitlint_config-typo3)
 ![Lint Code Base](https://github.com/Starraider/commitlint_config-typo3/workflows/Lint%20Code%20Base/badge.svg)
 
-This is a config file if you want to use commitlint in TYPO3 projects, to make sure your commit messages are in the correct format [as described in the TYPO3 documentation](https://docs.typo3.org/m/typo3/guide-contributionworkflow/master/en-us/Appendix/CommitMessage.html)
+This is a config file, if you want to use commitlint in TYPO3 projects, to make sure your commit messages are in the correct format [as described in the TYPO3 documentation](https://docs.typo3.org/m/typo3/guide-contributionworkflow/master/en-us/Appendix/CommitMessage.html)
 
 ## If you use git at the command line
 
