@@ -1,12 +1,11 @@
+# commitlint/config-typo3
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://PayPal.me/SvenKalbhenn)
 ![GitHub](https://img.shields.io/github/license/Starraider/commitlint_config-typo3)
 ![GitHub issues](https://img.shields.io/github/issues/Starraider/commitlint_config-typo3)
 ![Lint Code Base](https://github.com/Starraider/commitlint_config-typo3/workflows/Lint%20Code%20Base/badge.svg)
 
-# commitlint/config-typo3
-
 This is a config file if you want to use commitlint in TYPO3 projects, to make sure your commit messages are in the correct format [as described in the TYPO3 documentation](https://docs.typo3.org/m/typo3/guide-contributionworkflow/master/en-us/Appendix/CommitMessage.html)
-
 
 ## If you use git at the command line
 
@@ -49,5 +48,3 @@ or
 Finally copy the commitlint.config.js to the root of your project.
 
 After you have restarted Visual Studio Code, the "[VSCode Conventional Commits](https://github.com/vivaxy/vscode-conventional-commits)" extension will use our commitlint.config.js each time you write a commit message.
-
-https://remarkablemark.org/blog/2019/05/29/git-husky-commitlint/
