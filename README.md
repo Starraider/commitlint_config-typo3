@@ -17,14 +17,15 @@ or
 
     npm install husky --save-dev
 
-You also need [commitlint](https://github.com/conventional-changelog/commitlint) and [commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional):
+You also need [commitlint](https://github.com/conventional-changelog/commitlint), [commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) and [@commitlint/parse](https://www.npmjs.com/package/@commitlint/parse):
 
     yarn add commitlint --dev
     yarn add @commitlint/config-conventional --dev
+    yarn add @commitlint/parse --dev
 
 or
 
-    npm install --save-dev @commitlint/config-conventional @commitlint/cli
+    npm install --save-dev @commitlint/config-conventional @commitlint/cli @commitlint/parse
 
 Create a .huskyrc file in the root folder of your project, which runs commitlint during the Git commit-msg hook:
 
