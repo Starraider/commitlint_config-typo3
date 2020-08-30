@@ -56,6 +56,15 @@ Restart Visual Studio Code and it should work.
 
 Info on how to use "VSCode Conventional Commits" you can find in the [documentation](https://github.com/vivaxy/vscode-conventional-commits).
 
+## Known bugs
+
+According to the [TYPO3 documentation](https://docs.typo3.org/m/typo3/guide-contributionworkflow/master/en-us/Appendix/CommitMessage.html), there should be no colon ":" after the typ.
+
+    [TASK] Remove colon in pattern -> correct
+    [TASK]: Remove colon in pattern -> false
+
+But the "[VSCode Conventional Commits](https://github.com/vivaxy/vscode-conventional-commits)" plugin for Visual Studio Code puts always a colon between the typ and the subject. Therefore the headerPattern has to tolerate the colon.
+
 ## Additional resources
 
 - [https://commitlint.js.org/](https://commitlint.js.org/)
