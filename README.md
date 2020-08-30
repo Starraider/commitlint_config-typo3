@@ -54,3 +54,9 @@ Finally copy the [commitlint.config.js](https://github.com/Starraider/commitlint
 Restart Visual Studio Code and it should work.
 
 Info on how to use "VSCode Conventional Commits" you can find in the [documentation](https://github.com/vivaxy/vscode-conventional-commits).
+
+## Additional resources
+
+- [https://commitlint.js.org/](https://commitlint.js.org/)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+- [commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
