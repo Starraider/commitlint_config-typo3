@@ -30,7 +30,7 @@ Create a .huskyrc file in the root folder of your project, which runs commitlint
         }
     }
 
-Finally copy the commitlint.config.js to the root of your project.
+Finally copy the commitlint.config.js to the root of your project and you are ready to go.
 
 ## If you use git in Visual Studio Code
 
@@ -43,8 +43,10 @@ You can install it localy (which I recommend) or globaly:
 
 or
 
-    npm install --save-dev @commitlint/config-conventional @commitlint/cli
+    npm install --save-dev @commitlint/config-conventional
 
 Finally copy the commitlint.config.js to the root of your project.
 
-After you have restarted Visual Studio Code, the "[VSCode Conventional Commits](https://github.com/vivaxy/vscode-conventional-commits)" extension will use our commitlint.config.js each time you write a commit message.
+Restart Visual Studio Code and it should work.
+
+Info on how to use "VSCode Conventional Commits" you can find in the [documentation](https://github.com/vivaxy/vscode-conventional-commits).
