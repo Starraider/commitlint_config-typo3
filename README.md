@@ -30,7 +30,7 @@ Create a .huskyrc file in the root folder of your project, which runs commitlint
         }
     }
 
-Finally copy the commitlint.config.js to the root of your project and you are ready to go.
+Finally copy the [commitlint.config.js](https://github.com/Starraider/commitlint_config-typo3/blob/master/commitlint.config.js) to the root of your project and you are ready to go.
 
 ## If you use git in Visual Studio Code
 
@@ -45,7 +45,7 @@ or
 
     npm install --save-dev @commitlint/config-conventional
 
-Finally copy the commitlint.config.js to the root of your project.
+Finally copy the [commitlint.config.js](https://github.com/Starraider/commitlint_config-typo3/blob/master/commitlint.config.js) to the root of your project.
 
 Restart Visual Studio Code and it should work.
 
