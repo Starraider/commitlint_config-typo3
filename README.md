@@ -13,6 +13,10 @@ I would recommend to use [typicode/husky](https://github.com/typicode/husky):
 
     yarn add husky --dev
 
+or
+
+    npm install husky --save-dev
+
 You also need [commitlint](https://github.com/conventional-changelog/commitlint) and [commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional):
 
     yarn add commitlint --dev
